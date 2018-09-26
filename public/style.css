@@ -1,0 +1,10 @@
+body {
+  /* background-image: url("~/Downloads/artisanal-food-cheese-cooking-905847.jpg"); */
+  /* background-color: #698FCD; */
+  background-image: linear-gradient(to bottom, #698FCD, #698FCD 50%, #C1617A 50%);
+  font-family: cursive;
+  border: 4px solid #000000;
+  padding: 10px;
+}
+h1 {text-align: center;
+}

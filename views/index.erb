@@ -1,0 +1,14 @@
+<h1>Number one Pizzeria</h1>
+
+
+
+<% for order in @orders %>
+  <p>Name: <%= order.pretty_name() %></p>
+  <p>Order is <%= order.quantity %> <%= order.topping  %></p>
+  <p><a href="/pizza-orders/<%= order.id %>">Show Order</a></p>
+<% end %>
+
+<!-- <form method="get" action="/pizza-orders/new">
+<input type="submit" value="Order your Pizza"/> -->
+<!-- </form> -->
+<p><a href="/pizza-orders/new">Make your Order</a></p>
